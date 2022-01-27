@@ -55,4 +55,8 @@ Add your crontab entry for required checking duration (5 minutes shown below). C
 `5 * * * * cd /home/pi/dydns && /home/pi/.local/share/virtualenvs/dydns-3bn5KlDW/bin/python3 dynv6api.py`
 
 
+## Conclusion
+The ipv6 of your server will be checked at cron interval set by you (5 minutes in example above) and if it is changed, then the same will be updated to your dynv6.com account.
+
+
 Courtsey: [Jayesh Mahato](www.jayeshmahato.com)
