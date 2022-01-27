@@ -54,3 +54,5 @@ Add your crontab entry for required checking duration (5 minutes shown below). C
 
 `5 * * * * cd /home/pi/dydns && /home/pi/.local/share/virtualenvs/dydns-3bn5KlDW/bin/python3 dynv6api.py`
 
+
+Courtsey: [Jayesh Mahato](www.jayeshmahato.com)
