@@ -6,9 +6,11 @@ This is a simple python application running in virtual environment which you can
 
 Please download/clone this repository and follow the instructions below.
 
+
 ## Requirements:
 * Python
 * Pipenv (You may also use virtualenv, if you want)
+
 
 ## Installation Intructions
 Inside the directory, run the virtual environment using command below:
@@ -30,6 +32,7 @@ You can now exit from the virtual environment using `exit` command or test the p
 
 `python3 dynv6api.py`
 
+
 ## Configuration
 Please update the file parameters.py with your hostname and token from your dynv6 account. Please enter the values within quotes as shown below:
 
@@ -39,6 +42,7 @@ Please update the file parameters.py with your hostname and token from your dynv
 }`
 
 The example.com is to be replaced by your hostname.The token is to be replaced by the your token from your dynv6 account. 
+
 
 ## Crontab
 The cron scheduler is required run the dynv6api.py file periodically. Open the cron tab:
