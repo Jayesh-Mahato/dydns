@@ -21,6 +21,7 @@ If you face any problems with the above, you can delete Pipfile.lock and install
 
 `pipenv install --python python3`
 
+
 Please copy the Virtualenv location for later use. You can always get it later, if not done.
 
 Once the virtual environment is activated, install all dependencies (2 packages) from Pipfile:
