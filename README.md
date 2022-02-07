@@ -59,6 +59,6 @@ Add your crontab entry for required checking duration (5 minutes shown below). C
 The ipv6 of your server will be checked at cron interval set by you (5 minutes in example above) and if it is changed, then the same will be updated to your dynv6.com account.
 
 Disclaimer:
-Do understand that the ipv4 clients will not be able to access your website, if you use only ipv6 AAAA records in your DNS. To resolve this issue you can use Cloudflare DNS - free plan and enable the cloudflare proxy server for your domain (Here Cloudflare will serve all ipv4, ipv6 clients as proxy and communicate with your website privately using ipv6 only). However you will need to manually add the AAAA record in Cloudflare as DDNS is not available in their free plan (You can watch dynv6 account for update or edit the cron job to send you a mail update).
+Do understand that the ipv4 clients will not be able to access your website, if you use only ipv6 AAAA records in your DNS. To resolve this issue you can use Cloudflare DNS - free plan and enable the cloudflare proxy server for your domain (Here Cloudflare will serve all ipv4, ipv6 clients as proxy and communicate with your website privately using ipv6 only). However you will need to manually add the AAAA record in Cloudflare as DDNS is not available in their free plan (You can watch dynv6 account for update or edit the cron job to send you a mail update - Check my [mail app](https://github.com/Jayesh-Mahato/DjangoAsyncMail) if needed).
 
 Courtsey: [Jayesh Mahato](https://www.jayeshmahato.com)
